@@ -1,0 +1,157 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "handValueUpdated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "handSum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "playerType",
+						"type": "string"
+					}
+				],
+				"name": "blackjackOrBust",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "calculateHandValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dealerAction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decideWinner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "endGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "action",
+						"type": "string"
+					}
+				],
+				"name": "playerAction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "playerBalances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "betAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "startGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/blackjack.sol": "Blackjack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/blackjack.sol": {
+			"keccak256": "0xb1eeb494b775c346e20fdeb407d2d6fdb5d764f6b6b68a5b594fffec5a6f4a58",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61d266953a93b48ecd795bd4bfcfc793b3a0e897ca6d05ae10880d4c9f1206e4",
+				"dweb:/ipfs/QmRb5covM6iyQVGJKwC1F8sf3dwiyG1jbfCTSyVxqrUjy5"
+			]
+		},
+		"contracts/blackjack_interface.sol": {
+			"keccak256": "0x434c1491deb611cf8951b40d047aff568ff4d4a6f4de260a5596078e5962ffb5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e8959911620d12f23f8bff6baa44e04957892308c6c698f8e21884eb1583a248",
+				"dweb:/ipfs/QmRhK6LL7SD9FJsBaWEzShbfBWwJXtuNqJmLhF4KyhW9Fi"
+			]
+		}
+	},
+	"version": 1
+}
